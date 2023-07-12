@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import Navbar from './components/navbar/Navbar.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Mercado Libre Clone App</h1>
+    <Navbar />
   </React.StrictMode>
 );
